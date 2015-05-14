@@ -1,0 +1,212 @@
+<?php if (!defined('THINK_PATH')) exit();?><style type="text/css">
+
+.panel{
+    margin-bottom: 0;
+}
+
+</style>
+
+<!--面板开始-->
+<div class="panel panel-default">
+    <!--搜索开始-->
+    <div class="panel-heading">
+        <form class="form-inline" id="search-form">
+            <div class="form-group input-group">
+              <input type="text" class="form-control input-sm" placeholder="登录帐号" name="loginname|EQ"/>
+            </div>
+            <div class="form-group input-group">
+              <input type="text" class="form-control input-sm" placeholder="用户名称" name="username|EQ"/>
+            </div>
+            <div class="form-group input-group">
+              <input type="text" class="form-control input-sm" placeholder="用户昵称" name="nickname|EQ"/>
+            </div>
+            <a id="searchbtn" class="btn btn-primary btn-sm">搜索</a>
+            <button type="reset" class="btn btn-primary btn-sm">清除</button>
+        </form>
+    </div>
+    <!--搜索结束-->
+    
+    <!--操作按钮开始-->
+    <?php echo W('Resource/adminOperaMenu',array(14));?> 
+    <!--操作按钮结束-->
+    
+    <!--roleGrid 开始-->
+    <table id="userGrid"></table>
+    <!--roleGrid 结束-->
+    
+</div>
+<!--面板结束-->
+
+<!--模态框开始-->
+<div class="modal fade" id="user-modal" tabindex="-1" role="dialog" aria-hidden="true">
+   <div class="modal-dialog"><div class="modal-content" id="user-content"></div></div>
+</div>
+<!--模态框结束-->
+
+
+
+<script type="text/javascript">
+
+$('#userGrid').datagrid({
+  url: "<?php echo U('/user/dataGrid');?>",
+  height: 440,
+  singleSelect: false,
+  striped: true,
+  pagination: true,
+  rownumbers: true,
+  pageNumber: 1,
+  pageSize: 20,
+  checkOnSelect: true,
+  pageList: [10,20,30,40,50],
+  loadMsg: '正在加载数据...',
+  frozenColumns:[[
+    {field:'id',checkbox: true},
+    {field:'loginname',title:'登录帐号',width:90},
+    {field:'password',title:'登录密码',width:90},
+  ]],
+  columns:[[
+    {field:'username',title:'用户名称',width:90},
+    {field:'nickname',title:'昵称',width:90},
+    {field:'superflag',title:'超级管理员',width:90},
+    {field:'status',title:'状态',width:60},
+    {field:'email',title:'邮箱',width:140},
+    {field:'gender',title:'性别',width:60},
+    {field:'birthday',title:'生日',width:90},
+    {field:'createtime',title:'创建时间',width:160},
+  ]],
+});
+
+/**
+ * 
+ * 搜索
+ */
+$("#searchbtn").click(function () {
+    var params = $("#search-form").serializeArray();
+    $('#userGrid').datagrid('load', params);
+});
+
+/**
+ * 
+ * 添加
+ */
+function addopera(obj)
+{
+    $("#adduser").attr("data-toggle", "modal");
+    $("#adduser").attr("data-target", "#user-modal");
+    
+    var url = obj.rel;
+    
+    $("#user-content").load(url);
+}
+
+/**
+ * 
+ * 修改
+ */
+function modifyopera(obj)
+{
+    var rows = $('#userGrid').datagrid('getChecked');
+    
+    if(rows.length < 1)
+    {
+        alert("请至少选择一行~");
+    }
+    else if(rows.length > 1)
+    {
+        alert("只能选择一行~");
+    }
+    else
+    {
+        $("#modifyuser").attr("data-toggle", "modal");
+        $("#modifyuser").attr("data-target", "#user-modal");
+        
+        var id = rows[0].id;
+        var url = obj.rel + "?id=" + id;
+        
+        $("#user-content").load(url);
+    }
+}
+
+/**
+ * 
+ * 分配角色
+ */
+function distrole(obj)
+{
+    var rows = $('#userGrid').datagrid('getChecked');
+    
+    if(rows.length < 1)
+    {
+        alert("请至少选择一行~");
+    }
+    else if(rows.length > 1)
+    {
+        alert("只能选择一行~");
+    }
+    else
+    {
+        $("#distrole").attr("data-toggle", "modal");
+        $("#distrole").attr("data-target", "#user-modal");
+        
+        var id = rows[0].id;
+        
+        var url = obj.rel + "?id=" + id; 
+       
+        $("#user-content").load(url);
+    }
+}
+
+/**
+ * 
+ * 删除
+ */
+function deleteopera(obj)
+{
+    var rows = $('#userGrid').datagrid('getChecked');
+    
+    if(rows.length < 1)
+    {
+        alert("请至少选择一行~");
+    }
+    else
+    {
+        var delconfirm = confirm("您确定要删除吗？");
+        
+        if( delconfirm == true )
+        {
+            var ids = "";
+        
+            for(var i=0; i < rows.length; i++)
+            {
+                ids += (rows[i].id + ',');    
+            }
+            
+            ids = ids.substr(0, ids.length-1);
+            
+            $.ajax({
+                type: 'POST',
+                dataType: 'json',
+                url: "<?php echo U('/user/delete');?>",
+                data: {ids: ids},
+                success: function(data){ 
+                    alert(data.content);
+                    $('#userGrid').datagrid('reload');
+                }
+            });
+        }
+    }
+}
+
+/**
+ * 
+ * 清除数据
+ */
+$('#user-modal').on('hidden.bs.modal', function (e) {
+    $("#modifyuser").removeAttr("data-toggle");
+    $("#modifyuser").removeAttr("data-target");
+    $("#distrole").removeAttr("data-toggle");
+    $("#distrole").removeAttr("data-target");
+    $(':input','#add-user-form').not(':button, :submit, :reset, :hidden').val('').removeAttr('checked').removeAttr('selected');
+});
+    
+</script>
