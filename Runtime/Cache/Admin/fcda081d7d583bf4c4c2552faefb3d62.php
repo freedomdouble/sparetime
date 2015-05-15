@@ -48,72 +48,31 @@
       <!--邮箱结束-->
       
       <div class="row">
+      
         <div class="col-md-4">
           <!--性别开始-->
-          <div class="form-group input-group">
-            <div class="input-group-addon">性别</div>
-            <div class="btn-group" data-toggle="buttons">
-              <?php if($user["gender"] == 1): ?><label class="btn btn-primary btn-sm active">
-                  <input type="radio" name="gender" autocomplete="off" value="1" checked="checked"/>男
-                </label>
-                <label class="btn btn-primary btn-sm">
-                  <input type="radio" name="gender" autocomplete="off" value="0"/>女
-                </label>
-              <?php else: ?>
-                <label class="btn btn-primary btn-sm">
-                  <input type="radio" name="gender" autocomplete="off" value="1"/>男
-                </label>
-                <label class="btn btn-primary btn-sm active">
-                  <input type="radio" name="gender" autocomplete="off" value="0" checked="checked"/>女
-                </label><?php endif; ?>
-            </div>
-          </div>
+          <?php if($user["gender"] == 1): echo W('Dict/generateRadio',array('性别','gender','123456'));?>
+          <?php else: ?>
+            <?php echo W('Dict/generateRadio',array('性别','gender','123456',1)); endif; ?>
           <!--性别结束-->
         </div>
+        
         <div class="col-md-4">
           <!--状态开始-->
-          <div class="form-group input-group">
-            <div class="input-group-addon">状态</div>
-            <div class="btn-group" data-toggle="buttons">
-              <?php if($user["status"] == 1): ?><label class="btn btn-primary btn-sm active">
-                  <input type="radio" name="status" autocomplete="off" value="1" checked="checked"/>启用
-                </label>
-                <label class="btn btn-primary btn-sm">
-                  <input type="radio" name="status" autocomplete="off" value="0"/>停用
-                </label>
-              <?php else: ?>
-                <label class="btn btn-primary btn-sm">
-                  <input type="radio" name="status" autocomplete="off" value="1"/>启用
-                </label>
-                <label class="btn btn-primary btn-sm active">
-                  <input type="radio" name="status" autocomplete="off" value="0" checked="checked"/>停用
-                </label><?php endif; ?>
-            </div>
-          </div>
+          <?php if($user["status"] == 1): echo W('Dict/generateRadio',array('状态','status','132456'));?>
+          <?php else: ?>
+            <?php echo W('Dict/generateRadio',array('状态','status','132456',1)); endif; ?>
           <!--状态结束-->
         </div>
+        
         <div class="col-md-4">
           <!--超级管理员开始-->
-          <div class="form-group input-group">
-            <div class="input-group-addon">超级管理员</div>
-            <div class="btn-group" data-toggle="buttons">
-              <?php if($user["superflag"] == 1): ?><label class="btn btn-primary btn-sm active">
-                  <input type="radio" name="superflag" autocomplete="off" value="1" checked="checked"/>是
-                </label>
-                <label class="btn btn-primary btn-sm">
-                  <input type="radio" name="superflag" autocomplete="off" value="0"/>否
-                </label>
-              <?php else: ?>
-                <label class="btn btn-primary btn-sm">
-                  <input type="radio" name="superflag" autocomplete="off" value="1"/>是
-                </label>
-                <label class="btn btn-primary btn-sm active">
-                  <input type="radio" name="superflag" autocomplete="off" value="0" checked="checked"/>否
-                </label><?php endif; ?>
-            </div>
-          </div>
+          <?php if($user["superflag"] == 1): echo W('Dict/generateRadio',array('超级管理员','superflag','123546'));?>
+          <?php else: ?>
+            <?php echo W('Dict/generateRadio',array('超级管理员','superflag','123546',1)); endif; ?>
           <!--超级管理员结束-->
         </div>
+        
       </div>
       
       <!--生日开始-->

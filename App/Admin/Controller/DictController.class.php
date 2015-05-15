@@ -65,7 +65,8 @@ class DictController extends CommonController {
 
        $inputData = I('post.');
        
-       $condition['dictcode'] = $inputData['dictcode'];
+       $condition['dictcode']     = $inputData['dictcode'];
+       $condition['dicttypecode'] = $inputData['dicttypecode'];
        
        $dictInfo = $Dict->where($condition)->find();
        
@@ -114,7 +115,8 @@ class DictController extends CommonController {
         
        if($dict['dictcode'] != $inputData['dictcode'])
        {
-          $condition['dictcode'] = $inputData['dictcode'];
+          $condition['dictcode']     = $inputData['dictcode'];
+          $condition['dicttypecode'] = $inputData['dicttypecode'];
           
           $dictInfo = $Dict->where($condition)->find();
           

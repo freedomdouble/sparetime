@@ -147,51 +147,21 @@
       
        <div class="col-md-6"> 
           <!--状态开始-->
-          <div class="form-group input-group">
-            <div class="input-group-addon">状态</div>
-            <div class="btn-group" data-toggle="buttons">
-              <if condition="$resource.status eq 1">
-                <label class="btn btn-primary btn-sm active">
-                  <input type="radio" name="status" autocomplete="off" value="1" checked="checked"/>启用
-                </label>
-                <label class="btn btn-primary btn-sm">
-                  <input type="radio" name="status" autocomplete="off" value="0"/>停用
-                </label>
-              <else />
-                <label class="btn btn-primary btn-sm">
-                  <input type="radio" name="status" autocomplete="off" value="1"/>启用
-                </label>
-                <label class="btn btn-primary btn-sm active">
-                  <input type="radio" name="status" autocomplete="off" value="0" checked="checked"/>停用
-                </label>
-              </if>
-            </div>
-          </div>
+          <if condition="$resource.status eq 1">
+            {:W('Dict/generateRadio',array('状态','status','132456'))}
+          <else />
+            {:W('Dict/generateRadio',array('状态','status','132456',1))}
+          </if>
           <!--状态结束-->
        </div>
    
        <div class="col-md-6"> 
           <!--公共开始-->
-          <div class="form-group input-group">
-            <div class="input-group-addon">公共</div>
-            <div class="btn-group" data-toggle="buttons">
-              <if condition="$resource.common eq 1">
-                <label class="btn btn-primary btn-sm active">
-                  <input type="radio" name="common" autocomplete="off" value="1" checked="checked"/>是
-                </label>
-                <label class="btn btn-primary btn-sm">
-                  <input type="radio" name="common" autocomplete="off" value="0"/>否
-                </label>
-              <else />
-                <label class="btn btn-primary btn-sm">
-                  <input type="radio" name="common" autocomplete="off" value="1"/>是
-                </label>
-                <label class="btn btn-primary btn-sm active">
-                  <input type="radio" name="common" autocomplete="off" value="0" checked="checked"/>否
-                </label>
-              </if>
-            </div>
-          </div>
+          <if condition="$resource.common eq 1">
+            {:W('Dict/generateRadio',array('公共','common','124356'))}
+          <else />
+            {:W('Dict/generateRadio',array('公共','common','124356',1))}
+          </if>
           <!--公共结束-->
         </div>
         

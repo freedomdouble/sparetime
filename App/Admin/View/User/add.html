@@ -48,47 +48,17 @@
       <div class="row">
         <div class="col-md-4">
           <!--性别开始-->
-          <div class="form-group input-group">
-            <div class="input-group-addon">性别</div>
-            <div class="btn-group" data-toggle="buttons">
-              <label class="btn btn-primary btn-sm active">
-                <input type="radio" name="gender" autocomplete="off" value="1" checked="checked"/>男
-              </label>
-              <label class="btn btn-primary btn-sm">
-                <input type="radio" name="gender" autocomplete="off" value="0"/>女
-              </label>
-            </div>
-          </div>
+          {:W('Dict/generateRadio',array('性别','gender','123456'))}
           <!--性别结束-->
         </div>
         <div class="col-md-4">
           <!--状态开始-->
-          <div class="form-group input-group">
-            <div class="input-group-addon">状态</div>
-            <div class="btn-group" data-toggle="buttons">
-              <label class="btn btn-primary btn-sm active">
-                <input type="radio" name="status" autocomplete="off" value="1" checked="checked"/>启用
-              </label>
-              <label class="btn btn-primary btn-sm">
-                <input type="radio" name="status" autocomplete="off" value="0"/>停用
-              </label>
-            </div>
-          </div>
+          {:W('Dict/generateRadio',array('状态','status','132456'))}
           <!--状态结束-->
         </div>
         <div class="col-md-4">
           <!--超级管理员开始-->
-          <div class="form-group input-group">
-            <div class="input-group-addon">超级管理员</div>
-            <div class="btn-group" data-toggle="buttons">
-              <label class="btn btn-primary btn-sm">
-                <input type="radio" name="superflag" autocomplete="off" value="1"/>是
-              </label>
-              <label class="btn btn-primary btn-sm active">
-                <input type="radio" name="superflag" autocomplete="off" value="0" checked="checked"/>否
-              </label>
-            </div>
-          </div>
+          {:W('Dict/generateRadio',array('超级管理员','superflag','123546',1))}
           <!--超级管理员结束-->
         </div>
       </div>

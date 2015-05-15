@@ -3,3 +3,5 @@
 2.项目人口地址 http://hostname:port/admin.php/login/index.html
 
 作者：很安分 QQ：1906612592 ~—_—~
+
+https://github.com/freedomdouble/sparetime

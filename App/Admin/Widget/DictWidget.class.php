@@ -8,7 +8,7 @@ class DictWidget extends Controller {
      * 
      *  字典单选
      */
-    public function generateRadio($title, $name, $typeid, $index)
+    public function generateRadio($title, $sttrName, $typeCode, $index=0)
     { 
         $leftStr  = "<div class='form-group input-group'><div class='input-group-addon'>" .$title. "</div><div class='btn-group' data-toggle='buttons'>";
         
@@ -16,17 +16,25 @@ class DictWidget extends Controller {
         
         $Dict = M("Dict");
         
-        $condition['dicttypeid'] = $typeid;
-        $condition['status'] = 1;
+        $condition['dicttypecode'] = $typeCode;
+        $condition['status']       = 1;
         
         $dicts = $Dict->where($condition)->order('orderby')->select();
         
-        $centerStr = $centerStr . "<label class='btn btn-primary btn-sm active'><input type='radio' name=" .$name. " autocomplete='off' value=" .$dicts[$index]['dictcode']. " checked='true'/>" .$dicts[$index]['dictcontent']. "</label>";
-        unset($dicts[$index]);
+        $temp = '';
         
         foreach($dicts as $k => $v)
         {
-            $centerStr = $centerStr . "<label class='btn btn-primary btn-sm'><input type='radio' name=" .$name. " autocomplete='off' value=" .$v['dictcode']. ">" .$v['dictcontent']. "</label>";
+            if( $k == $index)
+            {
+                $temp = "<label class='btn btn-primary btn-sm active'><input type='radio' name=" .$sttrName. " autocomplete='off' value=" .$v['dictcode']. " checked='true'/>" .$v['dictname']. "</label>";
+            }
+            else
+            {
+                $temp = "<label class='btn btn-primary btn-sm'><input type='radio' name=" .$sttrName. " autocomplete='off' value=" .$v['dictcode']. ">" .$v['dictname']. "</label>";
+            }
+            
+            $centerStr .= $temp;
         }
         
         $rightStr = "</div></div>";

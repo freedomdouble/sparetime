@@ -16259,3 +16259,2062 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+[ 2015-05-14T22:58:15+08:00 ] 127.0.0.1 /index.php/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+
+[ 2015-05-14T22:58:17+08:00 ] 127.0.0.1 /admin.php/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T22:58:17+08:00 ] 127.0.0.1 /admin.php/login/loginVerify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.001000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T22:58:25+08:00 ] 127.0.0.1 /admin.php/login/loginVerify/1431615505788
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-14T22:58:32+08:00 ] 127.0.0.1 /admin.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_user` [ RunTime:0.1330s ]
+SQL: SELECT * FROM `cc_user` WHERE `loginname` = 'ljz' AND `status` = 1 LIMIT 1   [ RunTime:0.0230s ]
+SQL: SELECT * FROM `cc_user` WHERE `loginname` = 'ljz' AND `password` = 'ljz' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-14T22:58:35+08:00 ] 127.0.0.1 /admin.php/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/index/index' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.088005s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.088005s ]
+SQL: SELECT * FROM `cc_resource` WHERE `parentid` = 0 AND `status` = 1 AND `level` = 1 AND `resourcetype` = 1 ORDER BY orderby  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cc_resource` WHERE `parentid` = 5 AND `status` = 1 AND `level` = 2 AND `resourcetype` = 1 ORDER BY orderby  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cc_resource` WHERE `parentid` = 18 AND `status` = 1 AND `level` = 2 AND `resourcetype` = 1 ORDER BY orderby  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cc_resource` WHERE `parentid` = 27 AND `status` = 1 AND `level` = 2 AND `resourcetype` = 1 ORDER BY orderby  [ RunTime:0.0010s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-14T22:58:39+08:00 ] 127.0.0.1 /admin.php/resource/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/resource/index' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.076004s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.076004s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/resource/index' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:-0.015001s ]
+SQL: SELECT * FROM `cc_resource` WHERE `parentid` = 6 AND `status` = 1 AND `level` = 3 AND `resourcetype` = 1 ORDER BY orderby  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T22:58:39+08:00 ] 127.0.0.1 /admin.php/resource/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/resource/dataGrid' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.033002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.034002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_resource` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cc_resource` LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T22:58:42+08:00 ] 127.0.0.1 /admin.php/resource/toAdd.html?id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/resource/toAdd' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.027001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:34:01+08:00 ] 127.0.0.1 /admin.php/dict/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/index' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.022001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/index' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:-0.008000s ]
+SQL: SELECT * FROM `cc_resource` WHERE `parentid` = 23 AND `status` = 1 AND `level` = 3 AND `resourcetype` = 1 ORDER BY orderby  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:34:01+08:00 ] 127.0.0.1 /admin.php/dicttype/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/dataGrid' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.054003s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.054003s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0740s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_dicttype` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cc_dicttype` LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-05-14T23:34:01+08:00 ] 127.0.0.1 /admin.php/dict/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/dataGrid' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.039002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.041002s ]
+SQL: SHOW COLUMNS FROM `cc_dict` [ RunTime:0.0560s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_dict` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cc_dict` LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T23:40:17+08:00 ] 127.0.0.1 /admin.php/dict/toAdd.html?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/toAdd' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.034002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.035002s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_dicttype` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:46:02+08:00 ] 127.0.0.1 /admin.php/dict/toAdd.html?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/toAdd' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.030002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.030002s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_dicttype` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:46:08+08:00 ] 127.0.0.1 /admin.php/dicttype/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/index' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.022001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/index' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:-0.008001s ]
+SQL: SELECT * FROM `cc_resource` WHERE `parentid` = 19 AND `status` = 1 AND `level` = 3 AND `resourcetype` = 1 ORDER BY orderby  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T23:46:08+08:00 ] 127.0.0.1 /admin.php/dicttype/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/dataGrid' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.034002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.034002s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_dicttype` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cc_dicttype` LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:46:10+08:00 ] 127.0.0.1 /admin.php/dicttype/toAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/toAdd' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.061004s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.061004s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: dicttype F:\Apache24\htdocs\cccccc\Runtime\Cache\Admin\46c083dfdf80bffb484e4599bc87f0ef.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T23:47:00+08:00 ] 127.0.0.1 /admin.php/dicttype/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/add' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.053004s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.054004s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cc_dicttype` WHERE `dicttypecode` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `cc_dicttype` (`dicttypename`,`dicttypecode`,`parentcode`,`dicttypedesc`,`createtime`) VALUES ('性别','123456','','','2015-05-14 23:47:00') [ RunTime:0.1170s ]
+
+[ 2015-05-14T23:47:02+08:00 ] 127.0.0.1 /admin.php/dicttype/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/dataGrid' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.021001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.022001s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_dicttype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cc_dicttype` LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T23:47:04+08:00 ] 127.0.0.1 /admin.php/dicttype/toAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/toAdd' LIMIT 1   [ RunTime:0.0020s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.030001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: dicttype F:\Apache24\htdocs\cccccc\Runtime\Cache\Admin\46c083dfdf80bffb484e4599bc87f0ef.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T23:47:19+08:00 ] 127.0.0.1 /admin.php/dicttype/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/add' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.031002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.031002s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_dicttype` WHERE `dicttypecode` = '132456' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `cc_dicttype` (`dicttypename`,`dicttypecode`,`parentcode`,`dicttypedesc`,`createtime`) VALUES ('状态','132456','','','2015-05-14 23:47:19') [ RunTime:0.0030s ]
+
+[ 2015-05-14T23:47:21+08:00 ] 127.0.0.1 /admin.php/dicttype/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/dataGrid' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.018001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_dicttype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cc_dicttype` LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:47:23+08:00 ] 127.0.0.1 /admin.php/dicttype/toAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/toAdd' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.027002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: dicttype F:\Apache24\htdocs\cccccc\Runtime\Cache\Admin\46c083dfdf80bffb484e4599bc87f0ef.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T23:47:42+08:00 ] 127.0.0.1 /admin.php/dicttype/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/add' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.019001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cc_dicttype` WHERE `dicttypecode` = '124356' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `cc_dicttype` (`dicttypename`,`dicttypecode`,`parentcode`,`dicttypedesc`,`createtime`) VALUES ('公共','124356','','','2015-05-14 23:47:42') [ RunTime:0.0030s ]
+
+[ 2015-05-14T23:47:43+08:00 ] 127.0.0.1 /admin.php/dicttype/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/dataGrid' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.020001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_dicttype` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cc_dicttype` LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:47:45+08:00 ] 127.0.0.1 /admin.php/dict/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/index' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.021001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/index' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:-0.008001s ]
+SQL: SELECT * FROM `cc_resource` WHERE `parentid` = 23 AND `status` = 1 AND `level` = 3 AND `resourcetype` = 1 ORDER BY orderby  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:47:46+08:00 ] 127.0.0.1 /admin.php/dicttype/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/dataGrid' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.026001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.027001s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_dicttype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cc_dicttype` LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:47:46+08:00 ] 127.0.0.1 /admin.php/dict/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/dataGrid' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.032002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.034002s ]
+SQL: SHOW COLUMNS FROM `cc_dict` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_dict` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cc_dict` LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:47:51+08:00 ] 127.0.0.1 /admin.php/dict/toAdd.html?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/toAdd' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.029002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.029002s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_dicttype` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-14T23:48:05+08:00 ] 127.0.0.1 /admin.php/dict/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/add' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.029002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.030002s ]
+SQL: SHOW COLUMNS FROM `cc_dict` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_dict` WHERE `dictcode` = '1' AND `dicttypecode` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `cc_dict` (`dictname`,`dictcode`,`dicttypecode`,`dicttypeid`,`orderby`,`status`,`createtime`) VALUES ('男','1','123456','9','1','1','2015-05-14 23:48:05') [ RunTime:0.0020s ]
+
+[ 2015-05-14T23:48:06+08:00 ] 127.0.0.1 /admin.php/dict/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/dataGrid' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.020001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.021001s ]
+SQL: SHOW COLUMNS FROM `cc_dict` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_dict` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cc_dict` LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-14T23:48:09+08:00 ] 127.0.0.1 /admin.php/dict/toAdd.html?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/toAdd' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.037002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.037002s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_dicttype` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:48:21+08:00 ] 127.0.0.1 /admin.php/dict/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/add' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.029002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.030002s ]
+SQL: SHOW COLUMNS FROM `cc_dict` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_dict` WHERE `dictcode` = '0' AND `dicttypecode` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `cc_dict` (`dictname`,`dictcode`,`dicttypecode`,`dicttypeid`,`orderby`,`status`,`createtime`) VALUES ('女','0','123456','9','0','1','2015-05-14 23:48:21') [ RunTime:0.0020s ]
+
+[ 2015-05-14T23:48:24+08:00 ] 127.0.0.1 /admin.php/dict/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/dataGrid' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.019001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `cc_dict` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_dict` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cc_dict` LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:48:29+08:00 ] 127.0.0.1 /admin.php/dict/toModify.html?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/toModify' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.030002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.030002s ]
+SQL: SHOW COLUMNS FROM `cc_dict` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_dict` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-14T23:48:34+08:00 ] 127.0.0.1 /admin.php/dict/modify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/modify' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.034002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.034002s ]
+SQL: SHOW COLUMNS FROM `cc_dict` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_dict` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cc_dict` SET `dictname`='女',`dictcode`='0',`dicttypecode`='123456',`dicttypeid`='5',`orderby`='2',`status`='1' WHERE `id` = 5 [ RunTime:0.0430s ]
+
+[ 2015-05-14T23:48:36+08:00 ] 127.0.0.1 /admin.php/dict/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/dataGrid' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.020001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `cc_dict` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_dict` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cc_dict` LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:48:40+08:00 ] 127.0.0.1 /admin.php/dict/toAdd.html?id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/toAdd' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.027001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.027001s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_dicttype` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:48:58+08:00 ] 127.0.0.1 /admin.php/dict/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/add' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.022001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.023001s ]
+SQL: SHOW COLUMNS FROM `cc_dict` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cc_dict` WHERE `dictcode` = '1' AND `dicttypecode` = '132456' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `cc_dict` (`dictname`,`dictcode`,`dicttypecode`,`dicttypeid`,`orderby`,`status`,`createtime`) VALUES ('启用','1','132456','10','1','1','2015-05-14 23:48:58') [ RunTime:0.0030s ]
+
+[ 2015-05-14T23:48:59+08:00 ] 127.0.0.1 /admin.php/dict/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/dataGrid' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.020002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.020002s ]
+SQL: SHOW COLUMNS FROM `cc_dict` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_dict` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cc_dict` LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:49:02+08:00 ] 127.0.0.1 /admin.php/dict/toAdd.html?id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/toAdd' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.031002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.032002s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cc_dicttype` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:49:12+08:00 ] 127.0.0.1 /admin.php/dict/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/add' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.020001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `cc_dict` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_dict` WHERE `dictcode` = '0' AND `dicttypecode` = '132456' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `cc_dict` (`dictname`,`dictcode`,`dicttypecode`,`dicttypeid`,`orderby`,`status`,`createtime`) VALUES ('停用','0','132456','10','2','1','2015-05-14 23:49:12') [ RunTime:0.0020s ]
+
+[ 2015-05-14T23:49:14+08:00 ] 127.0.0.1 /admin.php/dict/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/dataGrid' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.021002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.021002s ]
+SQL: SHOW COLUMNS FROM `cc_dict` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_dict` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cc_dict` LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:49:18+08:00 ] 127.0.0.1 /admin.php/dict/toAdd.html?id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/toAdd' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.022001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.022001s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_dicttype` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:49:32+08:00 ] 127.0.0.1 /admin.php/dict/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/add' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.020001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `cc_dict` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_dict` WHERE `dictcode` = '1' AND `dicttypecode` = '124356' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `cc_dict` (`dictname`,`dictcode`,`dicttypecode`,`dicttypeid`,`orderby`,`status`,`createtime`) VALUES ('是','1','124356','11','1','1','2015-05-14 23:49:32') [ RunTime:0.0020s ]
+
+[ 2015-05-14T23:49:34+08:00 ] 127.0.0.1 /admin.php/dict/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/dataGrid' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.021002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.021002s ]
+SQL: SHOW COLUMNS FROM `cc_dict` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_dict` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cc_dict` LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:49:36+08:00 ] 127.0.0.1 /admin.php/dict/toAdd.html?id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/toAdd' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.025002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.026002s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cc_dicttype` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:49:47+08:00 ] 127.0.0.1 /admin.php/dict/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/add' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.021002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.021002s ]
+SQL: SHOW COLUMNS FROM `cc_dict` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_dict` WHERE `dictcode` = '0' AND `dicttypecode` = '124356' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `cc_dict` (`dictname`,`dictcode`,`dicttypecode`,`dicttypeid`,`orderby`,`status`,`createtime`) VALUES ('否','0','124356','11','2','1','2015-05-14 23:49:47') [ RunTime:0.0020s ]
+
+[ 2015-05-14T23:49:48+08:00 ] 127.0.0.1 /admin.php/dict/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/dataGrid' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.019001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `cc_dict` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_dict` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cc_dict` LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:49:57+08:00 ] 127.0.0.1 /admin.php/dict/delete.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/delete' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.029002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.029002s ]
+SQL: SHOW COLUMNS FROM `cc_dict` [ RunTime:0.0010s ]
+SQL: DELETE FROM `cc_dict` WHERE `id` IN ('1','2','3') [ RunTime:0.0280s ]
+
+[ 2015-05-14T23:49:58+08:00 ] 127.0.0.1 /admin.php/dict/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/dataGrid' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.020001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.021001s ]
+SQL: SHOW COLUMNS FROM `cc_dict` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_dict` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cc_dict` LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:50:13+08:00 ] 127.0.0.1 /admin.php/dicttype/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/index' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.019001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/index' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:-0.008001s ]
+SQL: SELECT * FROM `cc_resource` WHERE `parentid` = 19 AND `status` = 1 AND `level` = 3 AND `resourcetype` = 1 ORDER BY orderby  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:50:14+08:00 ] 127.0.0.1 /admin.php/dicttype/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/dataGrid' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.029001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.029001s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_dicttype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cc_dicttype` LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:50:20+08:00 ] 127.0.0.1 /admin.php/dicttype/delete.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/delete' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.020001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.021001s ]
+SQL: SHOW COLUMNS FROM `cc_dict` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_dict` WHERE `dicttypeid` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cc_dicttype` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cc_dicttype` WHERE `parentcode` = '1010' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-05-14T23:50:27+08:00 ] 127.0.0.1 /admin.php/dicttype/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/dataGrid' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.020001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.021001s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_dicttype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cc_dicttype` LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:50:29+08:00 ] 127.0.0.1 /admin.php/dict/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/index' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.020002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/index' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:-0.009000s ]
+SQL: SELECT * FROM `cc_resource` WHERE `parentid` = 23 AND `status` = 1 AND `level` = 3 AND `resourcetype` = 1 ORDER BY orderby  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T23:50:29+08:00 ] 127.0.0.1 /admin.php/dicttype/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/dataGrid' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.024001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.024001s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_dicttype` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cc_dicttype` LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:50:29+08:00 ] 127.0.0.1 /admin.php/dict/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/dataGrid' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.036002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.039002s ]
+SQL: SHOW COLUMNS FROM `cc_dict` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_dict` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cc_dict` LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-14T23:51:12+08:00 ] 127.0.0.1 /admin.php/dicttype/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/index' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.033002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/index' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:-0.008000s ]
+SQL: SELECT * FROM `cc_resource` WHERE `parentid` = 19 AND `status` = 1 AND `level` = 3 AND `resourcetype` = 1 ORDER BY orderby  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T23:51:13+08:00 ] 127.0.0.1 /admin.php/dicttype/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/dataGrid' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.026002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.026002s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_dicttype` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cc_dicttype` LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:51:22+08:00 ] 127.0.0.1 /admin.php/dicttype/delete.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/delete' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.032002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.033002s ]
+SQL: SHOW COLUMNS FROM `cc_dict` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_dict` WHERE `dicttypeid` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cc_dicttype` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cc_dicttype` WHERE `parentcode` = '1011' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cc_dict` WHERE `dicttypeid` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cc_dicttype` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cc_dicttype` WHERE `parentcode` = '1012' LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `cc_dicttype` WHERE `id` IN ('7','8') [ RunTime:0.0080s ]
+
+[ 2015-05-14T23:51:23+08:00 ] 127.0.0.1 /admin.php/dicttype/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/dataGrid' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.029002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.030002s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_dicttype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cc_dicttype` LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:51:27+08:00 ] 127.0.0.1 /admin.php/dicttype/delete.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/delete' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.019001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `cc_dict` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_dict` WHERE `dicttypeid` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cc_dicttype` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cc_dicttype` WHERE `parentcode` = '1010' LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `cc_dicttype` WHERE `id` = 6 [ RunTime:0.0070s ]
+
+[ 2015-05-14T23:51:29+08:00 ] 127.0.0.1 /admin.php/dicttype/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/dataGrid' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.018001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.020002s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_dicttype` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cc_dicttype` LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:51:31+08:00 ] 127.0.0.1 /admin.php/dicttype/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/index' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.019001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/index' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.001000s ]
+INFO: [ action_begin ] --END-- [ RunTime:-0.008001s ]
+SQL: SELECT * FROM `cc_resource` WHERE `parentid` = 19 AND `status` = 1 AND `level` = 3 AND `resourcetype` = 1 ORDER BY orderby  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:51:32+08:00 ] 127.0.0.1 /admin.php/dicttype/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/dataGrid' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.022001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.022001s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_dicttype` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cc_dicttype` LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:51:36+08:00 ] 127.0.0.1 /admin.php/dict/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/index' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.020001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/index' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:-0.008001s ]
+SQL: SELECT * FROM `cc_resource` WHERE `parentid` = 23 AND `status` = 1 AND `level` = 3 AND `resourcetype` = 1 ORDER BY orderby  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-14T23:51:37+08:00 ] 127.0.0.1 /admin.php/dicttype/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dicttype/dataGrid' LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.028001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.028001s ]
+SQL: SHOW COLUMNS FROM `cc_dicttype` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_dicttype` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cc_dicttype` LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-14T23:51:37+08:00 ] 127.0.0.1 /admin.php/dict/dataGrid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\LoginBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cc_user_role` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cc_role_resource` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cc_resource` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cc_resource` WHERE `resourceurl` = '/admin.php/dict/dataGrid' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Admin\Behavior\AuthBehavior [ RunTime:0.035002s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.035002s ]
+SQL: SHOW COLUMNS FROM `cc_dict` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cc_dict` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cc_dict` LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ action_end ] --START--
+INFO: [ action_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

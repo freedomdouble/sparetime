@@ -48,28 +48,13 @@
         <input type="number" class="form-control input-sm" name="orderby" placeholder="字典排序" value="{$dict.orderby}" required="required"/>
       </div>
       <!--字典排序结束-->
-      
+
       <!--状态开始-->
-      <div class="form-group input-group">
-        <div class="input-group-addon">状态</div>
-        <div class="btn-group" data-toggle="buttons">
-          <if condition="$dict.status eq 1">
-              <label class="btn btn-primary btn-sm active">
-                <input type="radio" name="status" autocomplete="off" value="1" checked="true"/>启用
-              </label>
-              <label class="btn btn-primary btn-sm">
-                <input type="radio" name="status" autocomplete="off" value="0"/>停用
-              </label>
-          <else />
-              <label class="btn btn-primary btn-sm">
-                <input type="radio" name="status" autocomplete="off" value="1" />启用
-              </label>
-              <label class="btn btn-primary btn-sm active">
-                <input type="radio" name="status" autocomplete="off" value="0" checked="true"/>停用
-              </label>
-          </if>
-        </div>
-      </div>
+      <if condition="$dict.status eq 1">
+        {:W('Dict/generateRadio',array('状态','status','132456'))}
+      <else />
+        {:W('Dict/generateRadio',array('状态','status','132456',1))}
+      </if>
       <!--状态结束-->
       
   </div>

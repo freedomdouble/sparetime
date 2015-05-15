@@ -41,17 +41,7 @@
       <!--字典排序结束-->
       
       <!--状态开始-->
-      <div class="form-group input-group">
-        <div class="input-group-addon">状态</div>
-        <div class="btn-group" data-toggle="buttons">
-          <label class="btn btn-primary btn-sm active">
-            <input type="radio" name="status" autocomplete="off" value="1" checked="true"/>启用
-          </label>
-          <label class="btn btn-primary btn-sm">
-            <input type="radio" name="status" autocomplete="off" value="0"/>停用
-          </label>
-        </div>
-      </div>
+      <?php echo W('Dict/generateRadio',array('状态','status','132456'));?>
       <!--状态结束-->
       
   </div>

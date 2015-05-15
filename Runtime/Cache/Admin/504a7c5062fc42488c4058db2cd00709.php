@@ -48,26 +48,11 @@
         <input type="number" class="form-control input-sm" name="orderby" placeholder="字典排序" value="<?php echo ($dict["orderby"]); ?>" required="required"/>
       </div>
       <!--字典排序结束-->
-      
+
       <!--状态开始-->
-      <div class="form-group input-group">
-        <div class="input-group-addon">状态</div>
-        <div class="btn-group" data-toggle="buttons">
-          <?php if($dict["status"] == 1): ?><label class="btn btn-primary btn-sm active">
-                <input type="radio" name="status" autocomplete="off" value="1" checked="true"/>启用
-              </label>
-              <label class="btn btn-primary btn-sm">
-                <input type="radio" name="status" autocomplete="off" value="0"/>停用
-              </label>
-          <?php else: ?>
-              <label class="btn btn-primary btn-sm">
-                <input type="radio" name="status" autocomplete="off" value="1" />启用
-              </label>
-              <label class="btn btn-primary btn-sm active">
-                <input type="radio" name="status" autocomplete="off" value="0" checked="true"/>停用
-              </label><?php endif; ?>
-        </div>
-      </div>
+      <?php if($dict["status"] == 1): echo W('Dict/generateRadio',array('状态','status','132456'));?>
+      <?php else: ?>
+        <?php echo W('Dict/generateRadio',array('状态','status','132456',1)); endif; ?>
       <!--状态结束-->
       
   </div>

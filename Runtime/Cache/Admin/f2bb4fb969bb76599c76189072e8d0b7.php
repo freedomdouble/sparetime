@@ -147,47 +147,17 @@
       
        <div class="col-md-6"> 
           <!--状态开始-->
-          <div class="form-group input-group">
-            <div class="input-group-addon">状态</div>
-            <div class="btn-group" data-toggle="buttons">
-              <?php if($resource["status"] == 1): ?><label class="btn btn-primary btn-sm active">
-                  <input type="radio" name="status" autocomplete="off" value="1" checked="checked"/>启用
-                </label>
-                <label class="btn btn-primary btn-sm">
-                  <input type="radio" name="status" autocomplete="off" value="0"/>停用
-                </label>
-              <?php else: ?>
-                <label class="btn btn-primary btn-sm">
-                  <input type="radio" name="status" autocomplete="off" value="1"/>启用
-                </label>
-                <label class="btn btn-primary btn-sm active">
-                  <input type="radio" name="status" autocomplete="off" value="0" checked="checked"/>停用
-                </label><?php endif; ?>
-            </div>
-          </div>
+          <?php if($resource["status"] == 1): echo W('Dict/generateRadio',array('状态','status','132456'));?>
+          <?php else: ?>
+            <?php echo W('Dict/generateRadio',array('状态','status','132456',1)); endif; ?>
           <!--状态结束-->
        </div>
    
        <div class="col-md-6"> 
           <!--公共开始-->
-          <div class="form-group input-group">
-            <div class="input-group-addon">公共</div>
-            <div class="btn-group" data-toggle="buttons">
-              <?php if($resource["common"] == 1): ?><label class="btn btn-primary btn-sm active">
-                  <input type="radio" name="common" autocomplete="off" value="1" checked="checked"/>是
-                </label>
-                <label class="btn btn-primary btn-sm">
-                  <input type="radio" name="common" autocomplete="off" value="0"/>否
-                </label>
-              <?php else: ?>
-                <label class="btn btn-primary btn-sm">
-                  <input type="radio" name="common" autocomplete="off" value="1"/>是
-                </label>
-                <label class="btn btn-primary btn-sm active">
-                  <input type="radio" name="common" autocomplete="off" value="0" checked="checked"/>否
-                </label><?php endif; ?>
-            </div>
-          </div>
+          <?php if($resource["common"] == 1): echo W('Dict/generateRadio',array('公共','common','124356'));?>
+          <?php else: ?>
+            <?php echo W('Dict/generateRadio',array('公共','common','124356',1)); endif; ?>
           <!--公共结束-->
         </div>
         
