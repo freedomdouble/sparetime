@@ -1,0 +1,190 @@
+<?php if (!defined('THINK_PATH')) exit();?><style type="text/css">
+
+.panel{
+    margin-bottom: 0;
+}
+
+</style>
+
+<!--面板开始-->
+<div class="panel panel-default">
+    <!--搜索开始-->
+    <div class="panel-heading">
+        <form class="form-inline" id="search-form">
+            <div class="form-group input-group">
+              <input type="text" class="form-control input-sm" placeholder="资源名称" name="resourcename|EQ"/>
+            </div>
+            <div class="form-group input-group">
+              <input type="text" class="form-control input-sm" placeholder="资源地址" name="resourceurl|EQ"/>
+            </div>
+            <a id="searchbtn" class="btn btn-primary btn-sm">搜索</a>
+            <button type="reset" class="btn btn-primary btn-sm">清除</button>
+        </form>
+    </div>
+    <!--搜索结束-->
+    
+    <!--操作按钮开始-->
+    <?php echo W('Resource/adminOperaMenu',array(6));?> 
+    <!--操作按钮结束-->
+    
+    <!--SourceGrid 开始-->
+    <table id="resourceGrid"></table>
+    <!--SourceGrid 结束-->
+    
+</div>
+<!--面板结束-->
+
+<!--模态框开始-->
+<div class="modal fade" id="resource-modal" tabindex="-1" role="dialog" aria-hidden="true">
+   <div class="modal-dialog"><div class="modal-content" id="resource-content"></div></div>
+</div>
+<!--模态框结束-->
+
+
+
+<script type="text/javascript">
+  
+$('#resourceGrid').datagrid({
+  url: "<?php echo U('/resource/dataGrid');?>",
+  height: 440,
+  singleSelect: true,
+  striped: true,
+  pagination: true,
+  rownumbers: true,
+  pageNumber: 1,
+  pageSize: 20,
+  checkOnSelect: true,
+  pageList: [10,20,30,40,50],
+  loadMsg: '正在加载数据...',
+  frozenColumns:[[
+      {field:'id',checkbox: true},
+      {field:'resourcename',title:'资源名称',width:70},
+      {field:'resourcealias',title:'资源别名',width:160},
+      {field:'resourceurl',title:'资源地址',width:160},
+  ]],
+  columns:[[
+      {field:'model',title:'模块',width:60},
+      {field:'controller',title:'控制器',width:60},
+      {field:'method',title:'方法',width:60},
+      {field:'orderby',title:'排序值',width:45},
+      {field:'resourcegroup',title:'资源分组',width:60},
+      {field:'resourcecode',title:'资源编码',width:60},
+      {field:'level',title:'资源等级',width:60},
+      {field:'resourcetype',title:'资源类型',width:60},
+      {field:'status',title:'状态',width:35},
+      {field:'parentid',title:'父级',width:70},
+      {field:'createtime',title:'创建时间',width:125},
+      {field:'common',title:'公共资源',width:60},  
+      {field:'createuser',title:'创建人',width:60}, 
+      {field:'resourceicon',title:'资源图标',width:160}, 
+      {field:'resourcetarget',title:'资源目标',width:90}, 
+      {field:'event',title:'资源事件',width:90},
+      {field:'resourcedesc',title:'描述',width:60},
+  ]]
+});
+    
+/**
+ * 
+ * 搜索
+ */
+$("#searchbtn").click(function () {
+    var params = $("#search-form").serializeArray();
+    $('#resourceGrid').datagrid('load',params);
+});
+
+/**
+ * 
+ * 添加
+ */
+function addopera(obj)
+{
+    $("#addresource").attr("data-toggle", "modal");
+    $("#addresource").attr("data-target", "#resource-modal");
+    
+    var url = obj.rel;
+    // 选中的行数据
+    var row = $('#resourceGrid').datagrid('getSelected');
+    
+    var id = '';
+
+    if( row != null )
+    {
+        var id = row.id;
+    }
+    
+    url = url + "?id=" + id;
+    
+    $("#resource-content").load(url);
+}
+
+/**
+ * 
+ * 删除
+ */
+function deleteopera(obj)
+{
+    var url = obj.rel;
+    // 选中的行数据
+    var row = $('#resourceGrid').datagrid('getSelected');
+    
+    //  判断是否选中行
+    if(row == null)
+    {
+        alert("请选择要删除的行");
+    }
+    else
+    {
+        var delconfirm = confirm("您确定要删除吗？");
+        
+        // 判断是否要删除
+        if( delconfirm == true )
+        {
+            var id = row.id;
+            $.ajax({
+                type: "POST",
+                url: "<?php echo U('/resource/delete');?>",
+                data: {id: id},
+                dataType: "json",
+                success: function(data){ 
+                    alert(data.content);
+                    $('#resourceGrid').datagrid('reload');
+                }
+            });
+        }
+    }
+}
+
+/**
+ * 
+ * 修改
+ */
+function modifyopera(obj)
+{
+    var url = obj.rel;
+    // 选中的行数据
+    var row = $('#resourceGrid').datagrid('getSelected');
+    
+    //  判断是否选中行
+    if(row == null)
+    {
+        alert("请选择要修改的行");
+    } 
+    else
+    {
+        $("#modifyresource").attr("data-toggle", "modal");
+        $("#modifyresource").attr("data-target", "#resource-modal");
+        var id = row.id;
+        url = url + "?id=" + id;
+        $("#resource-content").load(url); 
+    } 
+}
+
+/**
+ * 
+ * 清除添加框数据
+ */
+$('#resource-modal').on('hidden.bs.modal', function (e) {
+    $(':input','#add-resource-form').not(':button, :submit, :reset, :hidden').val('').removeAttr('checked').removeAttr('selected');
+});
+
+</script>
